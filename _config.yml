@@ -1,32 +1,32 @@
 
 # SITE INFORMATION
-title:        Steven Stetzler
-tagline:      Astronomy Graduate Student at University of Washington
-baseurl:      "/github-pages-template/"
+title:        Site Title
+tagline:      Site Tagline
+baseurl:      "/github-pages-template"
 paginate:     1
 locale:       "en"
 
 # YOUR INFORMATION
-# About/contact
+# Edit fields here to update the information and social icons displayed on the page
 author:
-  name: Steven Stetzler
+  name: Your Name
   headshot: img/headshot.png
   social:
     - type: email
-      link: steven.stetzler@mail.com
+      link: your.email@mail.com
     - type: github
-      link: https://github.com/stevenstetzler
+      link: https://github.com/Your_GitHub_Name
     - type: researchgate
-      link: https://researchgate.net/profile/Steven_Stetzler
+      link: https://researchgate.net/profile/Profile_Name
 #     - type: twitter
 #       link: https://twitter.com/Twitter_Handle
     # Uncomment these to add more social icons to your site
     # - type: facebook
-    #   link: https://facebook.com/StevenStetzler
+    #   link: https://facebook.com/...
     # - type: instagram
-    #   link: https://instagram.com/stevenstetzler
+    #   link: https://instagram.com/...
     # - type: linkedin
-    #   link: https://linkdin.com/stevenstetzler
+    #   link: https://linkdin.com/...
     # - type: orcid
     #   link: https://orcid.org/id
 
