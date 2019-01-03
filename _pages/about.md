@@ -2,6 +2,6 @@
 layout: page
 ---
 
-Place information about you here.
+{% include image.html link="/img/Astronomy.jpg" height="400px" %}
 
-Link to your [CV](cv.pdf).
+I am an astronomer at the University of Washington studying cloud computing.

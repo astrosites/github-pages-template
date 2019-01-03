@@ -34,15 +34,45 @@ collections:
   pages:
     output: true
     permalink: /:path/
+# When you add a new Markdown file in the _pages folder, it will be processed and outputted to the built site
+# using the same directory structure that exists in _pages. For example the directory structure
+#
+# _pages
+#   ├─── my-new-page.md
+#   ├─── my-folder
+#   |        my-second-page.md
+#
+# will create the following structure on your website
+#
+# http://<your_site_name>.com/my-new-page/index.html
+# http://<your_site_name>.com/my-folder/my-second-page/index.html
+#
+# Note that when used as links /my-new-page/index.html is identical to /my-new-page/, so the following are valid as well:
+# 
+# http://<your_site_name>.com/my-new-page/
+# http://<your_site_name>.com/my-folder/my-second-page/
 
 # NAVIGATION
 # This determines which navigation buttons are shown on the website
-# These MUST be the same as the title of the page (or the name of the file if that is not set)
+# Each button has a title (the text displayed in the button) and a link (the location that the button directs the user to)
 nav:
-  - home
-  - about
-  - research
-  - publications
+  # The home page
+  - title: Home
+    link: ""
+  # The about page, located in _pages/about.md
+  - title: About
+    link: /about/
+  # A page about your research, located in _pages/research.md
+  - title: Research
+    link: /research/
+  # A page to list your publications, located in _pages/publications.md
+  - title: Publications
+    link: /publications/
+  # Note that you can alternatively link to your ADS search page like this:
+    # link: https://ui.adsabs.harvard.edu/
+  # A link to your CV, located at cv.pdf in the root directory
+  - title: My CV
+    link: /cv.pdf  
 
 # Plugins
 plugins:
